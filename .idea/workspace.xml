@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5399305d-9bb7-4842-a18a-36a546dbdc44" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oop/mahadi/demotablev/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oop/mahadi/demotablev/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/oop/mahadi/demotablev/TableVControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oop/mahadi/demotablev/TableVControler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/oop/mahadi/demotablev/TableV.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/oop/mahadi/demotablev/TableV.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -13,7 +13,7 @@ import javafx.scene.control.cell.TextFieldTableCell;
 import java.time.LocalDate;
 import java.time.Month;
 
-public class TableVControler {
+public class  TableVControler {
 
     @FXML
     private TableColumn<Student, LocalDate> dobFxid;
@@ -35,7 +35,7 @@ public class TableVControler {
 
           tavbeViewfxid.setEditable(true);
           fNamefxid.setCellFactory(TextFieldTableCell.forTableColumn());
-
+          lNamefxid.setCellFactory(TextFieldTableCell.forTableColumn());
 
 
 
@@ -53,6 +53,13 @@ public class TableVControler {
     public void changeFirstNameCellEvent(TableColumn.CellEditEvent editCell){
         Student demoStu    =tavbeViewfxid.getSelectionModel().getSelectedItem();
         demoStu.setfName(editCell.getNewValue().toString());
+
+    }
+
+    @FXML
+    public void changeSecondNameCellEvent(TableColumn.CellEditEvent editCell){
+        Student demoStu    =tavbeViewfxid.getSelectionModel().getSelectedItem();
+        demoStu.setlName(editCell.getNewValue().toString());
 
     }
 }
