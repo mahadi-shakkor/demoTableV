@@ -4,12 +4,11 @@
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.mahadi.demotablev.TableVControler">
    <children>
       <TableView fx:id="tavbeViewfxid" layoutX="28.0" layoutY="67.0" prefHeight="200.0" prefWidth="433.0">
         <columns>
-          <TableColumn fx:id="fNamefxid" prefWidth="75.0" text="fname" />
+          <TableColumn fx:id="fNamefxid" onEditCommit="#changeFirstNameCellEvent" prefWidth="75.0" text="fname" />
           <TableColumn fx:id="lNamefxid" prefWidth="75.0" text="lname" />
             <TableColumn fx:id="dobFxid" prefWidth="75.0" text="dateOfBirth" />
         </columns>
