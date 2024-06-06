@@ -50,16 +50,17 @@ public class  TableVControler {
 
 
     @FXML
-    public void changeFirstNameCellEvent(TableColumn.CellEditEvent editCell){
+    public void changeFirstNameCellEvent (TableColumn.CellEditEvent editCell){
         Student demoStu    =tavbeViewfxid.getSelectionModel().getSelectedItem();
         demoStu.setfName(editCell.getNewValue().toString());
 
     }
 
+
+
     @FXML
-    public void changeSecondNameCellEvent(TableColumn.CellEditEvent editCell){
+    public void changeSecondName_CellEvent(TableColumn.CellEditEvent  editCell) {
         Student demoStu    =tavbeViewfxid.getSelectionModel().getSelectedItem();
         demoStu.setlName(editCell.getNewValue().toString());
-
     }
 }

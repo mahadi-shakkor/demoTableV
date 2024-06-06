@@ -9,7 +9,7 @@
       <TableView fx:id="tavbeViewfxid" layoutX="28.0" layoutY="67.0" prefHeight="200.0" prefWidth="433.0">
         <columns>
           <TableColumn fx:id="fNamefxid" onEditCommit="#changeFirstNameCellEvent" prefWidth="75.0" text="fname" />
-          <TableColumn fx:id="lNamefxid" prefWidth="75.0" text="lname" />
+          <TableColumn fx:id="lNamefxid" onEditCommit="#changeSecondName_CellEvent" prefWidth="75.0" text="lname" />
             <TableColumn fx:id="dobFxid" prefWidth="75.0" text="dateOfBirth" />
         </columns>
       </TableView>
